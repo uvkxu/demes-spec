@@ -36,6 +36,14 @@ properties:
     type: number
     minimum: 0
 
+  gene_conversion_rate:
+    type: number
+    minimum: 0
+  
+  gene_conversion_tract_length:
+    type: number
+    exclusiveMinimum: 0
+
   metadata:
     type: object
     default: {}

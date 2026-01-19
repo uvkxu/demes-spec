@@ -33,6 +33,10 @@ properties:
   recombination_rate:
     type: number
     minimum: 0
+  
+  recombination_rate:
+    type: number
+    minimum: 0
 
   metadata:
     type: object
